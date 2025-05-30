@@ -115,7 +115,7 @@ podTemplate(
                             exit 1
                         fi
 
-                        # Git commit and push
+                        # Git commit and push 
                         git add .
                         git commit -m "Update frontend image tag to ${imageTag}" || echo "No changes to commit"
                         git push origin main
